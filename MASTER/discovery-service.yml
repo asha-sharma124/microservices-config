@@ -5,7 +5,7 @@ server:
 # for server discovery
 eureka:
   instance:
-    hostname: localhost
+    hostname: discovery-service
 
     leaseRenewalIntervalInSeconds: 5
   client:
